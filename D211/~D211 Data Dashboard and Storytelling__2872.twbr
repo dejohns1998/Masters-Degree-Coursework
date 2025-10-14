@@ -1,0 +1,2685 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0818.1050                               -->
+<workbook original-version='18.1' source-build='2025.2.2 (20252.25.0818.1050)' source-platform='win' version='18.1' xml:base='https://localhost:8080' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.IndividualControlFormatting.true...IndividualControlFormatting />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location derived-from='http://localhost:9100/workbooks/D210DataDashboardandStorytelling_17538989573670?rev=2.9' id='D210DataDashboardandStorytelling_17538989573670' path='/workbooks' revision='2.9' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='combined_df_clean (combined_df_clean)' inline='true' name='federated.0rd1wro1npnko413u0ku40r44ek0' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='combined_df_clean' name='excel-direct.18sz5k40g1r9v812o39h90e3jp5w'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' interpretationMode='0' validate='no' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.18sz5k40g1r9v812o39h90e3jp5w' name='combined_df_clean' table='[combined_df_clean$]' type='table'>
+          <columns gridOrigin='A1:G20001:no:A1:G20001:0' header='yes' outcome='6'>
+            <column datatype='string' name='source' ordinal='0' />
+            <column datatype='string' name='stroke' ordinal='1' />
+            <column datatype='string' name='gender' ordinal='2' />
+            <column datatype='string' name='age_category' ordinal='3' />
+            <column datatype='string' name='diabetes' ordinal='4' />
+            <column datatype='string' name='asthma' ordinal='5' />
+            <column datatype='string' name='overweight' ordinal='6' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[combined_df_clean]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:G20001:no:A1:G20001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>source</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[source]</local-name>
+            <parent-name>[combined_df_clean]</parent-name>
+            <remote-alias>source</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[combined!df!clean_DF51B433642E4FFCA19A45AC13C66EDB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stroke</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[stroke]</local-name>
+            <parent-name>[combined_df_clean]</parent-name>
+            <remote-alias>stroke</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[combined!df!clean_DF51B433642E4FFCA19A45AC13C66EDB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[gender]</local-name>
+            <parent-name>[combined_df_clean]</parent-name>
+            <remote-alias>gender</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[combined!df!clean_DF51B433642E4FFCA19A45AC13C66EDB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age_category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[age_category]</local-name>
+            <parent-name>[combined_df_clean]</parent-name>
+            <remote-alias>age_category</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[combined!df!clean_DF51B433642E4FFCA19A45AC13C66EDB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>diabetes</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[diabetes]</local-name>
+            <parent-name>[combined_df_clean]</parent-name>
+            <remote-alias>diabetes</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[combined!df!clean_DF51B433642E4FFCA19A45AC13C66EDB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>asthma</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[asthma]</local-name>
+            <parent-name>[combined_df_clean]</parent-name>
+            <remote-alias>asthma</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[combined!df!clean_DF51B433642E4FFCA19A45AC13C66EDB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>overweight</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[overweight]</local-name>
+            <parent-name>[combined_df_clean]</parent-name>
+            <remote-alias>overweight</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[combined!df!clean_DF51B433642E4FFCA19A45AC13C66EDB]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='combined_df_clean' datatype='table' name='[__tableau_internal_object_id__].[combined!df!clean_DF51B433642E4FFCA19A45AC13C66EDB]' role='measure' type='quantitative' />
+      <column caption='Age Category' datatype='string' name='[age_category]' role='dimension' type='nominal' />
+      <column caption='Asthma' datatype='string' name='[asthma]' role='dimension' type='nominal' />
+      <column caption='Diabetes' datatype='string' name='[diabetes]' role='dimension' type='nominal' />
+      <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+      <column caption='Overweight' datatype='string' name='[overweight]' role='dimension' type='nominal' />
+      <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+      <column caption='Stroke' datatype='string' name='[stroke]' role='dimension' type='nominal' />
+      <column-instance column='[gender]' derivation='Attribute' name='[attr:gender:nk]' pivot='key' type='nominal' />
+      <column-instance column='[age_category]' derivation='None' name='[none:age_category:nk]' pivot='key' type='nominal' />
+      <column-instance column='[asthma]' derivation='None' name='[none:asthma:nk]' pivot='key' type='nominal' />
+      <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+      <column-instance column='[source]' derivation='None' name='[none:source:nk]' pivot='key' type='nominal' />
+      <group caption='Action (Age Category,Source)' hidden='true' name='[Action (Age Category,Source)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[age_category]' />
+          <groupfilter function='level-members' level='[source]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Gender)' hidden='true' name='[Action (Gender)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[gender]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Gender,Source)' hidden='true' name='[Action (Gender,Source)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[gender]' />
+          <groupfilter function='level-members' level='[source]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Source)' hidden='true' name='[Action (Source)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[source]' />
+        </groupfilter>
+      </group>
+      <group caption='Age Category Set' name='[Age Category Set]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter expression='COUNT([gender]) == 0' function='filter' user:ui-filter-by-field='true' user:ui-marker='filter-by'>
+          <groupfilter function='level-members' level='[none:age_category:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+        </groupfilter>
+      </group>
+      <group caption='Gender Set' name='[Gender Set]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+          <groupfilter function='member' level='[none:gender:nk]' member='&quot;Female&quot;' />
+          <groupfilter function='member' level='[none:gender:nk]' member='&quot;Male&quot;' />
+          <groupfilter function='member' level='[none:gender:nk]' member='&quot;Nonbinary&quot;' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection authentication='auth-none' author-locale='en_US' class='hyper' dbname='Data/Extracts/federated_0rd1wro1npnko413u0ku40.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/30/2025 07:37:49 AM' username=''>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>source</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[source]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>source</remote-alias>
+              <ordinal>0</ordinal>
+              <family>combined_df_clean</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[combined!df!clean_DF51B433642E4FFCA19A45AC13C66EDB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>stroke</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[stroke]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>stroke</remote-alias>
+              <ordinal>1</ordinal>
+              <family>combined_df_clean</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[combined!df!clean_DF51B433642E4FFCA19A45AC13C66EDB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>gender</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[gender]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>gender</remote-alias>
+              <ordinal>2</ordinal>
+              <family>combined_df_clean</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[combined!df!clean_DF51B433642E4FFCA19A45AC13C66EDB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>age_category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[age_category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>age_category</remote-alias>
+              <ordinal>3</ordinal>
+              <family>combined_df_clean</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[combined!df!clean_DF51B433642E4FFCA19A45AC13C66EDB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>diabetes</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[diabetes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>diabetes</remote-alias>
+              <ordinal>4</ordinal>
+              <family>combined_df_clean</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[combined!df!clean_DF51B433642E4FFCA19A45AC13C66EDB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>asthma</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[asthma]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>asthma</remote-alias>
+              <ordinal>5</ordinal>
+              <family>combined_df_clean</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[combined!df!clean_DF51B433642E4FFCA19A45AC13C66EDB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>overweight</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[overweight]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>overweight</remote-alias>
+              <ordinal>6</ordinal>
+              <family>combined_df_clean</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[combined!df!clean_DF51B433642E4FFCA19A45AC13C66EDB]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[attr:gender:nk]' palette='tableau-10-medium' type='palette'>
+            <map to='#67bf5c'>
+              <bucket>&quot;Nonbinary&quot;</bucket>
+            </map>
+            <map to='#729ece'>
+              <bucket>&quot;Female&quot;</bucket>
+            </map>
+            <map to='#ff9e4a'>
+              <bucket>&quot;Male&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:asthma:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;No&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Yes&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:source:nk]' palette='color_blind_10_0' type='palette'>
+            <map to='#5fa2ce'>
+              <bucket>&quot;CDC&quot;</bucket>
+            </map>
+            <map to='#fc7d0b'>
+              <bucket>&quot;WGU&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:gender:nk]' palette='color_blind_10_0' type='palette'>
+            <map to='#1170aa'>
+              <bucket>&quot;Male&quot;</bucket>
+            </map>
+            <map to='#a3acb9'>
+              <bucket>&quot;Nonbinary&quot;</bucket>
+            </map>
+            <map to='#c85200'>
+              <bucket>&quot;Female&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='combined_df_clean' id='combined!df!clean_DF51B433642E4FFCA19A45AC13C66EDB'>
+            <properties context=''>
+              <relation connection='excel-direct.18sz5k40g1r9v812o39h90e3jp5w' name='combined_df_clean' table='[combined_df_clean$]' type='table'>
+                <columns gridOrigin='A1:G20001:no:A1:G20001:0' header='yes' outcome='6'>
+                  <column datatype='string' name='source' ordinal='0' />
+                  <column datatype='string' name='stroke' ordinal='1' />
+                  <column datatype='string' name='gender' ordinal='2' />
+                  <column datatype='string' name='age_category' ordinal='3' />
+                  <column datatype='string' name='diabetes' ordinal='4' />
+                  <column datatype='string' name='asthma' ordinal='5' />
+                  <column datatype='string' name='overweight' ordinal='6' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action2_15C5B6C43D6049148BD79428AED7B95A]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Sheet 1' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='&lt;[gender]&gt;&lt;[age_category]&gt;&lt;[source]&gt;' name='[Action3_007D74A4943A4AEAA62BBAF8F0476BC5]'>
+      <source datasource='federated.0rd1wro1npnko413u0ku40r44ek0' type='datasource' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Sheet 1' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action3_F22A29B668B34DA8834EB7841FE4B135]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Sheet 2' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 3 (generated)' name='[Action4_4FD47A51CB234C6689D4DCC0BF852354]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Sheet 3' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>Patient Age Distribution</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/D210DataDashboardandStorytelling_17538989573670/Sheet1?rev=' id='119682298' path='/workbooks/D210DataDashboardandStorytelling_17538989573670' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined_df_clean (combined_df_clean)' name='federated.0rd1wro1npnko413u0ku40r44ek0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rd1wro1npnko413u0ku40r44ek0'>
+            <column-instance column='[__tableau_internal_object_id__].[combined!df!clean_DF51B433642E4FFCA19A45AC13C66EDB]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:combined!df!clean_DF51B433642E4FFCA19A45AC13C66EDB:qk]' pivot='key' type='quantitative' />
+            <column caption='combined_df_clean' datatype='table' name='[__tableau_internal_object_id__].[combined!df!clean_DF51B433642E4FFCA19A45AC13C66EDB]' role='measure' type='quantitative' />
+            <column caption='Age Category' datatype='string' name='[age_category]' role='dimension' type='nominal' />
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column-instance column='[age_category]' derivation='None' name='[none:age_category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[source]' derivation='None' name='[none:source:nk]' pivot='key' type='nominal' />
+            <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[Action (Gender)]'>
+            <groupfilter function='level-members' level='[gender]' user:ui-action-filter='[Action4_4FD47A51CB234C6689D4DCC0BF852354]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[Action (Gender,Source)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action3_F22A29B668B34DA8834EB7841FE4B135]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[gender]' />
+              <groupfilter function='level-members' level='[source]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:age_category:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]' filter-group='5'>
+            <groupfilter function='level-members' level='[none:gender:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]' filter-group='4'>
+            <groupfilter function='level-members' level='[none:source:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[:Measure Names]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[Action (Gender)]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[Action (Gender,Source)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[Multiple Values]' field-type='quantitative' major-origin='0.0' major-spacing='500.0' max='1500.0' min='0.0' range-type='fixed' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[Multiple Values]' scope='rows' value='Number of Patients' />
+            <format attr='width' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[Multiple Values]' value='68' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-family' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]' value='Tableau Regular' />
+            <format attr='font-size' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]' value='16' />
+            <format attr='font-weight' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]' value='bold' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='font-family' value='Tableau Semibold' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]' value='Source Filter'>
+              <formatted-text>
+                <run fontalignment='1' fontsize='12'>Source Filter</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0rd1wro1npnko413u0ku40r44ek0].[Multiple Values]</rows>
+        <cols>([federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk] / [federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk])</cols>
+      </table>
+      <simple-id uuid='{0C4E474E-B813-455A-82C0-D8495817421E}' />
+    </worksheet>
+    <worksheet name='Sheet 12'>
+      <repository-location derived-from='http://localhost:9100/workbooks/D210DataDashboardandStorytelling_17538989573670/Sheet12?rev=' id='119682310' path='/workbooks/D210DataDashboardandStorytelling_17538989573670' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined_df_clean (combined_df_clean)' name='federated.0rd1wro1npnko413u0ku40r44ek0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rd1wro1npnko413u0ku40r44ek0'>
+            <column caption='Age Category' datatype='string' name='[age_category]' role='dimension' type='nominal' />
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column-instance column='[age_category]' derivation='None' name='[none:age_category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]'>
+            <groupfilter function='level-members' level='[none:age_category:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]'>
+            <groupfilter function='level-members' level='[none:gender:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]</rows>
+        <cols>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]</cols>
+      </table>
+      <simple-id uuid='{3053CBB6-1722-42CE-8116-F00A228425A2}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Patient Gender Distribution</run>
+            <run fontalignment='1'>Æ&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/D210DataDashboardandStorytelling_17538989573670/Sheet2?rev=' id='119682299' path='/workbooks/D210DataDashboardandStorytelling_17538989573670' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined_df_clean (combined_df_clean)' name='federated.0rd1wro1npnko413u0ku40r44ek0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rd1wro1npnko413u0ku40r44ek0'>
+            <column caption='Age Category' datatype='string' name='[age_category]' role='dimension' type='nominal' />
+            <column-instance column='[gender]' derivation='Count' name='[cnt:gender:qk]' pivot='key' type='quantitative' />
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column-instance column='[age_category]' derivation='None' name='[none:age_category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[source]' derivation='None' name='[none:source:nk]' pivot='key' type='nominal' />
+            <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[Action (Gender)]'>
+            <groupfilter function='level-members' level='[gender]' user:ui-action-filter='[Action4_4FD47A51CB234C6689D4DCC0BF852354]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:age_category:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]' filter-group='5'>
+            <groupfilter function='level-members' level='[none:gender:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Female&quot;</bucket>
+              <bucket>&quot;Male&quot;</bucket>
+              <bucket>&quot;Nonbinary&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]' filter-group='4'>
+            <groupfilter function='level-members' level='[none:source:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[Action (Gender)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' value='167' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='border-style' value='solid' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]' />
+              <size column='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:gender:qk]' />
+              <text column='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:gender:qk]' />
+              <text column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]</cols>
+      </table>
+      <simple-id uuid='{D8BD59FB-2724-40EC-A9B9-19322410D13A}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='12'>Gender Filter</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/D210DataDashboardandStorytelling_17538989573670/Sheet3?rev=' id='119682300' path='/workbooks/D210DataDashboardandStorytelling_17538989573670' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined_df_clean (combined_df_clean)' name='federated.0rd1wro1npnko413u0ku40r44ek0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rd1wro1npnko413u0ku40r44ek0'>
+            <column caption='Age Category' datatype='string' name='[age_category]' role='dimension' type='nominal' />
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column-instance column='[age_category]' derivation='None' name='[none:age_category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+            <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[Action (Gender,Source)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action3_F22A29B668B34DA8834EB7841FE4B135]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[gender]' />
+              <groupfilter function='level-members' level='[source]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:age_category:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]'>
+            <groupfilter function='level-members' level='[none:gender:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[Action (Gender,Source)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]' value='Age Filter'>
+              <formatted-text>
+                <run fontalignment='1' fontsize='12'>Age Filter</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{22F6946D-B901-4402-B6EA-B55B10391529}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='16'>Distribution of Patients Across Age Brackets</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/D210DataDashboardandStorytelling_17538989573670/Sheet4?rev=' id='119682302' path='/workbooks/D210DataDashboardandStorytelling_17538989573670' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined_df_clean (combined_df_clean)' name='federated.0rd1wro1npnko413u0ku40r44ek0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rd1wro1npnko413u0ku40r44ek0'>
+            <column caption='Age Category' datatype='string' name='[age_category]' role='dimension' type='nominal' />
+            <column caption='Asthma' datatype='string' name='[asthma]' role='dimension' type='nominal' />
+            <column-instance column='[asthma]' derivation='Count' name='[cnt:asthma:qk]' pivot='key' type='quantitative' />
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column-instance column='[age_category]' derivation='None' name='[none:age_category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[asthma]' derivation='None' name='[none:asthma:nk]' pivot='key' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[source]' derivation='None' name='[none:source:nk]' pivot='key' type='nominal' />
+            <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]' filter-group='7'>
+            <groupfilter function='level-members' level='[none:age_category:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:asthma:nk]'>
+            <groupfilter function='member' level='[none:asthma:nk]' member='&quot;Yes&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]' filter-group='6'>
+            <groupfilter function='level-members' level='[none:gender:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]' filter-group='8'>
+            <groupfilter function='level-members' level='[none:source:nk]' />
+          </filter>
+          <slices>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:asthma:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='font-size' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]' value='10' />
+            <format attr='font-weight' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]' value='bold' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:asthma:qk]' palette='orange_blue_diverging_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:asthma:qk]' value='Range'>
+              <formatted-text>
+                <run>Range</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]' value='Age Bracket'>
+              <formatted-text>
+                <run>Age Bracket</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:asthma:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]</rows>
+        <cols>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]</cols>
+      </table>
+      <simple-id uuid='{DAFD1245-4D05-4374-9B45-9CABC7C77037}' />
+    </worksheet>
+    <worksheet name='Sheet 4 (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='16'>Asthma Distribution</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/D210DataDashboardandStorytelling_17538989573670/Sheet42?rev=' id='119682303' path='/workbooks/D210DataDashboardandStorytelling_17538989573670' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined_df_clean (combined_df_clean)' name='federated.0rd1wro1npnko413u0ku40r44ek0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rd1wro1npnko413u0ku40r44ek0'>
+            <column caption='Age Category' datatype='string' name='[age_category]' role='dimension' type='nominal' />
+            <column caption='Asthma' datatype='string' name='[asthma]' role='dimension' type='nominal' />
+            <column-instance column='[source]' derivation='Count' name='[cnt:source:qk]' pivot='key' type='quantitative' />
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column-instance column='[age_category]' derivation='None' name='[none:age_category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[asthma]' derivation='None' name='[none:asthma:nk]' pivot='key' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[source]' derivation='None' name='[none:source:nk]' pivot='key' type='nominal' />
+            <column-instance column='[asthma]' derivation='Count' name='[pcto:cnt:asthma:qk:11]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Field' type='PctTotal'>
+                <order field='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]' />
+                <sort direction='ASC' using='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:source:qk]' />
+              </table-calc>
+            </column-instance>
+            <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]' filter-group='7'>
+            <groupfilter function='level-members' level='[none:age_category:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:asthma:nk]'>
+            <groupfilter function='member' level='[none:asthma:nk]' member='&quot;Yes&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]' filter-group='6'>
+            <groupfilter function='level-members' level='[none:gender:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]' filter-group='8'>
+            <groupfilter function='level-members' level='[none:source:nk]' />
+          </filter>
+          <slices>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:asthma:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0rd1wro1npnko413u0ku40r44ek0].[pcto:cnt:asthma:qk:11]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]</rows>
+        <cols total='true' />
+      </table>
+      <simple-id uuid='{6769106B-A716-4AB2-A143-07ADF7D915EF}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='14'>Distribution of Patients with Diabetes Across Age Brackets</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/D210DataDashboardandStorytelling_17538989573670/Sheet5?rev=' id='119682304' path='/workbooks/D210DataDashboardandStorytelling_17538989573670' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined_df_clean (combined_df_clean)' name='federated.0rd1wro1npnko413u0ku40r44ek0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rd1wro1npnko413u0ku40r44ek0'>
+            <column caption='Age Category' datatype='string' name='[age_category]' role='dimension' type='nominal' />
+            <column-instance column='[diabetes]' derivation='Count' name='[cnt:diabetes:qk]' pivot='key' type='quantitative' />
+            <column caption='Diabetes' datatype='string' name='[diabetes]' role='dimension' type='nominal' />
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column-instance column='[age_category]' derivation='None' name='[none:age_category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[diabetes]' derivation='None' name='[none:diabetes:nk]' pivot='key' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[source]' derivation='None' name='[none:source:nk]' pivot='key' type='nominal' />
+            <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]' filter-group='7'>
+            <groupfilter function='level-members' level='[none:age_category:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:diabetes:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:diabetes:nk]' member='&quot;Yes&quot;' />
+              <groupfilter function='member' level='[none:diabetes:nk]' member='&quot;Yes (during pregnancy)&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]' filter-group='6'>
+            <groupfilter function='level-members' level='[none:gender:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]' filter-group='8'>
+            <groupfilter function='level-members' level='[none:source:nk]' />
+          </filter>
+          <slices>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:diabetes:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='field-labels'>
+            <format attr='font-size' value='12' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]' value='10' />
+            <format attr='font-weight' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]' value='bold' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:diabetes:qk]' palette='orange_blue_diverging_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+            <format attr='font-family' value='Tableau Medium' />
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:diabetes:qk]' value='Range'>
+              <formatted-text>
+                <run>Range</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:diabetes:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]</rows>
+        <cols>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]</cols>
+      </table>
+      <simple-id uuid='{9EDBD5E6-69DA-45C8-9667-8D26E34553D3}' />
+    </worksheet>
+    <worksheet name='Sheet 5 (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='16'>Diabetes Distribution</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/D210DataDashboardandStorytelling_17538989573670/Sheet52?rev=' id='119682305' path='/workbooks/D210DataDashboardandStorytelling_17538989573670' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined_df_clean (combined_df_clean)' name='federated.0rd1wro1npnko413u0ku40r44ek0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rd1wro1npnko413u0ku40r44ek0'>
+            <column caption='Age Category' datatype='string' name='[age_category]' role='dimension' type='nominal' />
+            <column caption='Diabetes' datatype='string' name='[diabetes]' role='dimension' type='nominal' />
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column-instance column='[age_category]' derivation='None' name='[none:age_category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[diabetes]' derivation='None' name='[none:diabetes:nk]' pivot='key' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[source]' derivation='None' name='[none:source:nk]' pivot='key' type='nominal' />
+            <column-instance column='[diabetes]' derivation='Count' name='[pcto:cnt:diabetes:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+            <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]' filter-group='7'>
+            <groupfilter function='level-members' level='[none:age_category:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:diabetes:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:diabetes:nk]' member='&quot;Yes&quot;' />
+              <groupfilter function='member' level='[none:diabetes:nk]' member='&quot;Yes (during pregnancy)&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]' filter-group='6'>
+            <groupfilter function='level-members' level='[none:gender:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]' filter-group='8'>
+            <groupfilter function='level-members' level='[none:source:nk]' />
+          </filter>
+          <slices>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:diabetes:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0rd1wro1npnko413u0ku40r44ek0].[pcto:cnt:diabetes:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{5A01DA82-E37A-4FA3-BA51-E86D62FCF4F9}' />
+    </worksheet>
+    <worksheet name='Sheet 6'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='14'>Distribution of Overweight Patients Across Age Brackets</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/D210DataDashboardandStorytelling_17538989573670/Sheet6?rev=' id='119682306' path='/workbooks/D210DataDashboardandStorytelling_17538989573670' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined_df_clean (combined_df_clean)' name='federated.0rd1wro1npnko413u0ku40r44ek0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rd1wro1npnko413u0ku40r44ek0'>
+            <column caption='Age Category' datatype='string' name='[age_category]' role='dimension' type='nominal' />
+            <column-instance column='[overweight]' derivation='Count' name='[cnt:overweight:qk]' pivot='key' type='quantitative' />
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column-instance column='[age_category]' derivation='None' name='[none:age_category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[overweight]' derivation='None' name='[none:overweight:nk]' pivot='key' type='nominal' />
+            <column-instance column='[source]' derivation='None' name='[none:source:nk]' pivot='key' type='nominal' />
+            <column caption='Overweight' datatype='string' name='[overweight]' role='dimension' type='nominal' />
+            <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]' filter-group='7'>
+            <groupfilter function='level-members' level='[none:age_category:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]' filter-group='6'>
+            <groupfilter function='level-members' level='[none:gender:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:overweight:nk]'>
+            <groupfilter function='member' level='[none:overweight:nk]' member='&quot;Yes&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]' filter-group='8'>
+            <groupfilter function='level-members' level='[none:source:nk]' />
+          </filter>
+          <slices>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:overweight:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='font-size' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]' value='9' />
+            <format attr='font-size' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]' value='9' />
+            <format attr='font-weight' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]' value='bold' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:overweight:qk]' palette='orange_blue_diverging_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+            <format attr='font-family' value='Tableau Medium' />
+            <format attr='font-size' value='12' />
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='font-size' value='9' />
+            <format attr='font-family' value='Tableau Book' />
+            <format attr='font-weight' value='bold' />
+          </style-rule>
+          <_.fcp.IndividualControlFormatting.true...style-rule element='legend-title'>
+            <_.fcp.IndividualControlFormatting.true...format attr='font-size' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:overweight:qk]' id='legend-color' value='9' />
+            <_.fcp.IndividualControlFormatting.true...format attr='font-family' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:overweight:qk]' id='legend-color' value='Tableau Book' />
+            <_.fcp.IndividualControlFormatting.true...format attr='font-weight' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:overweight:qk]' id='legend-color' value='bold' />
+          </_.fcp.IndividualControlFormatting.true...style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:overweight:qk]' value='Range'>
+              <formatted-text>
+                <run bold='false' fontname='Tableau Medium'>Range</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:overweight:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]</rows>
+        <cols>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]</cols>
+      </table>
+      <simple-id uuid='{F5A0559A-BBD2-4C78-8AD0-C6D4AA3C17BD}' />
+    </worksheet>
+    <worksheet name='Sheet 6 (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='16'>Overweight Distribution</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/D210DataDashboardandStorytelling_17538989573670/Sheet62?rev=' id='119682307' path='/workbooks/D210DataDashboardandStorytelling_17538989573670' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined_df_clean (combined_df_clean)' name='federated.0rd1wro1npnko413u0ku40r44ek0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rd1wro1npnko413u0ku40r44ek0'>
+            <column caption='Age Category' datatype='string' name='[age_category]' role='dimension' type='nominal' />
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column-instance column='[age_category]' derivation='None' name='[none:age_category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[overweight]' derivation='None' name='[none:overweight:nk]' pivot='key' type='nominal' />
+            <column-instance column='[source]' derivation='None' name='[none:source:nk]' pivot='key' type='nominal' />
+            <column caption='Overweight' datatype='string' name='[overweight]' role='dimension' type='nominal' />
+            <column-instance column='[overweight]' derivation='Count' name='[pcto:cnt:overweight:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+            <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]' filter-group='7'>
+            <groupfilter function='level-members' level='[none:age_category:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]' filter-group='6'>
+            <groupfilter function='level-members' level='[none:gender:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:overweight:nk]'>
+            <groupfilter function='member' level='[none:overweight:nk]' member='&quot;Yes&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]' filter-group='8'>
+            <groupfilter function='level-members' level='[none:source:nk]' />
+          </filter>
+          <slices>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:overweight:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0rd1wro1npnko413u0ku40r44ek0].[pcto:cnt:overweight:qk:2]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{4EA432D3-557B-4DF0-82C3-CB5865B78965}' />
+    </worksheet>
+    <worksheet name='Sheet 7'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='14'>Distribution of Stroke Patients Across Age Brackets</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/D210DataDashboardandStorytelling_17538989573670/Sheet7?rev=' id='119682308' path='/workbooks/D210DataDashboardandStorytelling_17538989573670' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined_df_clean (combined_df_clean)' name='federated.0rd1wro1npnko413u0ku40r44ek0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rd1wro1npnko413u0ku40r44ek0'>
+            <column caption='Age Category' datatype='string' name='[age_category]' role='dimension' type='nominal' />
+            <column-instance column='[stroke]' derivation='Count' name='[cnt:stroke:qk]' pivot='key' type='quantitative' />
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column-instance column='[age_category]' derivation='None' name='[none:age_category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[source]' derivation='None' name='[none:source:nk]' pivot='key' type='nominal' />
+            <column-instance column='[stroke]' derivation='None' name='[none:stroke:nk]' pivot='key' type='nominal' />
+            <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+            <column caption='Stroke' datatype='string' name='[stroke]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]' filter-group='7'>
+            <groupfilter function='level-members' level='[none:age_category:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]' filter-group='6'>
+            <groupfilter function='level-members' level='[none:gender:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]' filter-group='8'>
+            <groupfilter function='level-members' level='[none:source:nk]' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:stroke:nk]'>
+            <groupfilter function='member' level='[none:stroke:nk]' member='&quot;Yes&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:stroke:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='font-size' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]' value='9' />
+            <format attr='font-weight' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]' value='bold' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:stroke:qk]' palette='orange_blue_diverging_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:stroke:qk]' value='Range'>
+              <formatted-text>
+                <run>Range</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:stroke:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]</rows>
+        <cols>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]</cols>
+      </table>
+      <simple-id uuid='{967403FC-55A5-47D7-BE76-24476BE02DE2}' />
+    </worksheet>
+    <worksheet name='Sheet 7 (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='16'>Stroke Distribution</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/D210DataDashboardandStorytelling_17538989573670/Sheet72?rev=' id='119682309' path='/workbooks/D210DataDashboardandStorytelling_17538989573670' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined_df_clean (combined_df_clean)' name='federated.0rd1wro1npnko413u0ku40r44ek0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rd1wro1npnko413u0ku40r44ek0'>
+            <column caption='Age Category' datatype='string' name='[age_category]' role='dimension' type='nominal' />
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column-instance column='[age_category]' derivation='None' name='[none:age_category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[source]' derivation='None' name='[none:source:nk]' pivot='key' type='nominal' />
+            <column-instance column='[stroke]' derivation='None' name='[none:stroke:nk]' pivot='key' type='nominal' />
+            <column-instance column='[stroke]' derivation='Count' name='[pcto:cnt:stroke:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+            <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+            <column caption='Stroke' datatype='string' name='[stroke]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]' filter-group='7'>
+            <groupfilter function='level-members' level='[none:age_category:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]' filter-group='6'>
+            <groupfilter function='level-members' level='[none:gender:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]' filter-group='8'>
+            <groupfilter function='level-members' level='[none:source:nk]' />
+          </filter>
+          <filter class='categorical' column='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:stroke:nk]'>
+            <groupfilter function='member' level='[none:stroke:nk]' member='&quot;Yes&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:stroke:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]</column>
+            <column>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0rd1wro1npnko413u0ku40r44ek0].[pcto:cnt:stroke:qk:2]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{BCB9DB85-39BE-4D1D-9F0F-40575733A73D}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <repository-location derived-from='http://localhost:9100/workbooks/D210DataDashboardandStorytelling_17538989573670/Dashboard1?rev=' id='119682301' path='/workbooks/D210DataDashboardandStorytelling_17538989573670' revision='' />
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='combined_df_clean (combined_df_clean)' name='federated.0rd1wro1npnko413u0ku40r44ek0' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0rd1wro1npnko413u0ku40r44ek0'>
+        <column caption='Age Category' datatype='string' name='[age_category]' role='dimension' type='nominal' />
+        <column-instance column='[age_category]' derivation='None' name='[none:age_category:nk]' pivot='key' type='nominal' />
+        <column-instance column='[source]' derivation='None' name='[none:source:nk]' pivot='key' type='nominal' />
+        <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98684' id='43' param='horz' type-v2='layout-flow' w='98938' x='531' y='658'>
+            <zone h='98684' id='5' type-v2='layout-basic' w='98938' x='531' y='658'>
+              <zone h='54978' id='3' name='Sheet 1' w='98938' x='531' y='658'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='43706' id='14' name='Sheet 2' w='66134' x='531' y='55636'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='17944' id='36' name='Sheet 1' param='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]' type-v2='filter' values='database' w='12459' x='73424' y='81398'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='22141' id='38' name='Sheet 3' w='12459' x='73424' y='55636'>
+                <layout-cache fixed-size-h='81' fixed-size-w='141' type-h='fixed' type-w='fixed' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='43706' id='44' layout-strategy-id='distribute-evenly' param='horz' type-v2='layout-flow' w='13586' x='85883' y='55636'>
+                <zone h='43704' id='39' mode='checklist' name='Sheet 3' param='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]' type-v2='filter' w='13603' x='85866' y='55638'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone h='3621' id='45' param='horz' type-v2='layout-flow' w='12459' x='73424' y='77777' />
+              <zone h='43706' id='46' param='vert' type-v2='layout-flow' w='6759' x='66665' y='55636' />
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='900' minheight='900' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='94' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='93' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone h='17814' id='36' mode='checkdropdown' name='Sheet 1' param='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]' type-v2='filter' values='database' w='12474' x='73453' y='81172'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='54582' id='3' is-fixed='true' name='Sheet 1' w='99058' x='471' y='1014'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='43390' id='14' is-fixed='true' name='Sheet 2' w='66215' x='471' y='55596'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='43346' id='39' mode='checkdropdown' name='Sheet 3' param='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]' type-v2='filter' w='13613' x='85916' y='55640'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='168' h='21981' id='38' is-fixed='true' name='Sheet 3' w='12474' x='73453' y='55596'>
+                  <layout-cache fixed-size-h='81' fixed-size-w='141' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{82EED6AF-1039-4A66-BECB-DC77E5284798}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 2'>
+      <repository-location derived-from='http://localhost:9100/workbooks/D210DataDashboardandStorytelling_17538989573670/Dashboard2?rev=' id='119682312' path='/workbooks/D210DataDashboardandStorytelling_17538989573670' revision='' />
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='combined_df_clean (combined_df_clean)' name='federated.0rd1wro1npnko413u0ku40r44ek0' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0rd1wro1npnko413u0ku40r44ek0'>
+        <column caption='Age Category' datatype='string' name='[age_category]' role='dimension' type='nominal' />
+        <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+        <column-instance column='[age_category]' derivation='None' name='[none:age_category:nk]' pivot='key' type='nominal' />
+        <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+        <column-instance column='[source]' derivation='None' name='[none:source:nk]' pivot='key' type='nominal' />
+        <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='55187' id='23' param='horz' type-v2='layout-flow' w='98930' x='535' y='44121'>
+            <zone h='55187' id='21' type-v2='layout-basic' w='98930' x='535' y='44121'>
+              <zone h='18570' id='29' param='horz' type-v2='layout-flow' w='98930' x='535' y='44121'>
+                <zone fixed-size='260' h='18050' id='30' is-fixed='true' param='vert' type-v2='layout-flow' w='17391' x='736' y='44381'>
+                  <zone fixed-size='147' h='13408' id='25' is-fixed='true' name='Sheet 5 (2)' w='17391' x='736' y='44381'>
+                    <layout-cache cell-count-w='1' non-cell-size-w='81' type-h='cell' type-w='cell' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='4642' id='10' name='Sheet 5' pane-specification-id='0' param='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:diabetes:qk]' type-v2='color' w='17391' x='736' y='57789'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+                <zone h='18050' id='9' name='Sheet 5' show-title='false' w='81128' x='18127' y='44381'>
+                  <layout-cache cell-count-w='13' non-cell-size-w='80' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='solid' />
+                  <format attr='border-width' value='3' />
+                </zone-style>
+              </zone>
+              <zone h='18372' id='31' param='horz' type-v2='layout-flow' w='98930' x='535' y='62691'>
+                <zone fixed-size='263' h='17852' id='32' is-fixed='true' param='vert' type-v2='layout-flow' w='17592' x='736' y='62951'>
+                  <zone fixed-size='153' h='13927' id='33' is-fixed='true' name='Sheet 6 (2)' w='17592' x='736' y='62951'>
+                    <layout-cache cell-count-w='1' non-cell-size-w='81' type-h='cell' type-w='cell' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='3925' id='12' name='Sheet 6' pane-specification-id='0' param='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:overweight:qk]' type-v2='color' w='17592' x='736' y='76878'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+                <zone h='17852' id='11' name='Sheet 6' show-title='false' w='80933' x='18328' y='62951'>
+                  <layout-cache cell-count-w='13' non-cell-size-w='80' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='solid' />
+                  <format attr='border-width' value='3' />
+                </zone-style>
+              </zone>
+              <zone h='18245' id='34' param='horz' type-v2='layout-flow' w='98930' x='535' y='81063'>
+                <zone fixed-size='259' h='17725' id='35' is-fixed='true' param='vert' type-v2='layout-flow' w='17324' x='736' y='81323'>
+                  <zone fixed-size='160' h='14533' id='36' is-fixed='true' name='Sheet 7 (2)' w='17324' x='736' y='81323'>
+                    <layout-cache cell-count-w='1' non-cell-size-w='81' type-h='cell' type-w='cell' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='3192' id='14' name='Sheet 7' pane-specification-id='0' param='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:stroke:qk]' type-v2='color' w='17324' x='736' y='95856'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+                <zone h='17725' id='13' name='Sheet 7' show-title='false' w='81193' x='18060' y='81323'>
+                  <layout-cache cell-count-w='13' non-cell-size-w='80' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='solid' />
+                  <format attr='border-width' value='3' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='19288' id='26' param='horz' type-v2='layout-flow' w='98930' x='535' y='24833'>
+            <zone fixed-size='258' h='18768' id='27' is-fixed='true' param='vert' type-v2='layout-flow' w='17258' x='736' y='25093'>
+              <zone fixed-size='156' h='13495' id='28' is-fixed='true' param='horz' type-v2='layout-flow' w='17258' x='736' y='25093'>
+                <zone fixed-size='168' h='13495' id='19' is-fixed='true' name='Sheet 4 (2)' w='17258' x='736' y='25093'>
+                  <layout-cache type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone h='5273' id='24' name='Sheet 4' pane-specification-id='0' param='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:asthma:qk]' type-v2='color' w='17258' x='736' y='38588'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone h='18768' id='20' name='Sheet 4' show-title='false' w='81258' x='17994' y='25093'>
+              <layout-cache cell-count-w='13' non-cell-size-w='80' type-h='cell' type-w='cell' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='solid' />
+              <format attr='border-width' value='3' />
+            </zone-style>
+          </zone>
+          <zone h='10620' id='39' param='vert' type-v2='layout-flow' w='50298' x='49167' y='6199'>
+            <zone h='4844' id='37' mode='checkdropdown' name='Sheet 4' param='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]' type-v2='filter' values='database' w='50298' x='49167' y='6199'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='4844' id='38' mode='checkdropdown' name='Sheet 4' param='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]' type-v2='filter' values='database' w='50298' x='49167' y='11043'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone h='16127' id='40' param='vert' type-v2='layout-flow' w='48632' x='535' y='692'>
+            <zone forceUpdate='true' h='2941' id='42' type-v2='text' w='48632' x='535' y='692'>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Medium' fontsize='14'>Key Performance Indicators by Condition</run>
+              </formatted-text>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone fixed-size='112' forceUpdate='true' h='10381' id='43' is-fixed='true' type-v2='text' w='48632' x='535' y='3633'>
+              <formatted-text>
+                <run fontalignment='1' fontsize='12' italic='true'>Condition distributions for each dataset, represented by individual heat maps showing relative concentration in each age category. This dashboard is filterable by data source, gender, and age category. </run>
+                <run fontalignment='1'>Æ&#10;</run>
+                <run fontalignment='1' fontsize='12' italic='true'>Darker orange to red colors indicate a higher concentration of the condition while darker blue colors indicate a lower concentration of the condition. </run>
+              </formatted-text>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone h='5507' id='41' mode='checkdropdown' name='Sheet 4' param='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]' type-v2='filter' values='database' w='50298' x='49167' y='692'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone forceUpdate='true' h='8014' id='72' type-v2='text' w='98930' x='535' y='16819'>
+            <formatted-text>
+              <run bold='true' fontalignment='2' fontsize='16'>Distribution of Patients Across Age Brackets</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1700' minheight='1700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='92' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='91' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone forceUpdate='true' h='2941' id='42' type-v2='text' w='48632' x='535' y='692'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Medium' fontsize='14'>Key Performance Indicators by Condition</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='112' forceUpdate='true' h='10381' id='43' type-v2='text' w='48632' x='535' y='3633'>
+                  <formatted-text>
+                    <run fontalignment='1' fontsize='12' italic='true'>Condition distributions for each dataset, represented by individual heat maps showing relative concentration in each age category. This dashboard is filterable by data source, gender, and age category. </run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontsize='12' italic='true'>Darker orange to red colors indicate a higher concentration of the condition while darker blue colors indicate a lower concentration of the condition. </run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='8014' id='72' type-v2='text' w='98930' x='535' y='16819'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='2' fontsize='16'>Distribution of Patients Across Age Brackets</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='100' h='13495' id='19' is-fixed='true' name='Sheet 4 (2)' w='17258' x='736' y='25093'>
+                  <layout-cache type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='4844' id='37' mode='checkdropdown' name='Sheet 4' param='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]' type-v2='filter' values='database' w='50298' x='49167' y='6199'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='4844' id='38' mode='checkdropdown' name='Sheet 4' param='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]' type-v2='filter' values='database' w='50298' x='49167' y='11043'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5507' id='41' mode='checkdropdown' name='Sheet 4' param='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:source:nk]' type-v2='filter' values='database' w='50298' x='49167' y='692'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='142' h='18768' id='20' is-fixed='true' name='Sheet 4' show-title='false' w='81258' x='17994' y='25093'>
+                  <layout-cache cell-count-w='13' non-cell-size-w='80' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5273' id='24' name='Sheet 4' pane-specification-id='0' param='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:asthma:qk]' type-v2='color' w='17258' x='736' y='38588'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='99' h='13408' id='25' is-fixed='true' name='Sheet 5 (2)' w='17391' x='736' y='44381'>
+                  <layout-cache cell-count-w='1' non-cell-size-w='81' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='136' h='18050' id='9' is-fixed='true' name='Sheet 5' show-title='false' w='81128' x='18127' y='44381'>
+                  <layout-cache cell-count-w='13' non-cell-size-w='80' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='4642' id='10' name='Sheet 5' pane-specification-id='0' param='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:diabetes:qk]' type-v2='color' w='17391' x='736' y='57789'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='103' h='13927' id='33' is-fixed='true' name='Sheet 6 (2)' w='17592' x='736' y='62951'>
+                  <layout-cache cell-count-w='1' non-cell-size-w='81' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='134' h='17852' id='11' is-fixed='true' name='Sheet 6' show-title='false' w='80933' x='18328' y='62951'>
+                  <layout-cache cell-count-w='13' non-cell-size-w='80' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='3925' id='12' name='Sheet 6' pane-specification-id='0' param='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:overweight:qk]' type-v2='color' w='17592' x='736' y='76878'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='108' h='14533' id='36' is-fixed='true' name='Sheet 7 (2)' w='17324' x='736' y='81323'>
+                  <layout-cache cell-count-w='1' non-cell-size-w='81' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='133' h='17725' id='13' is-fixed='true' name='Sheet 7' show-title='false' w='81193' x='18060' y='81323'>
+                  <layout-cache cell-count-w='13' non-cell-size-w='80' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='3192' id='14' name='Sheet 7' pane-specification-id='0' param='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:stroke:qk]' type-v2='color' w='17324' x='736' y='95856'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{D6BD2A2F-E1AA-402E-9DF6-4F41286CBB05}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 3'>
+      <repository-location derived-from='http://localhost:9100/workbooks/D210DataDashboardandStorytelling_17538989573670/Dashboard3?rev=' id='119682313' path='/workbooks/D210DataDashboardandStorytelling_17538989573670' revision='' />
+      <style />
+      <size maxheight='1315' maxwidth='1609' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone forceUpdate='true' h='98616' id='3' type-v2='text' w='98928' x='536' y='692'>
+            <formatted-text>
+              <run bold='true' fontalignment='1' fontsize='18' underline='true'>Demographics</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontsize='12'>Both datasets show similar gender distributions with slightly more females than males (CDC: </run>
+              <run bold='true' fontalignment='1' fontsize='12'>52% </run>
+              <run fontalignment='1' fontsize='12'>female, </run>
+              <run bold='true' fontalignment='1' fontsize='12'>48%</run>
+              <run fontalignment='1' fontsize='12'> male; WGU:</run>
+              <run bold='true' fontalignment='1' fontsize='12'> 51%</run>
+              <run fontalignment='1' fontsize='12'> female, </run>
+              <run bold='true' fontalignment='1' fontsize='12'>48%</run>
+              <run fontalignment='1' fontsize='12'> male, </run>
+              <run bold='true' fontalignment='1' fontsize='12'>1%</run>
+              <run fontalignment='1' fontsize='12'> nonbinary). Meanwhile, the age distributions are more contrasted, as the CDC data shows relatively even distribution across age groups while the WGU data has a significant spike in the &quot;80 or older&quot; category.</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run bold='true' fontalignment='1' fontsize='18' underline='true'>Condition KPIs</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run bold='true' fontalignment='1' fontsize='12' underline='true'>Asthma:</run>
+              <run fontalignment='1' fontsize='12'> More prevalent in the WGU data (</run>
+              <run bold='true' fontalignment='1' fontsize='12'>67.72%</run>
+              <run fontalignment='1' fontsize='12'>) vs the CDC (</run>
+              <run bold='true' fontalignment='1' fontsize='12'>32.38</run>
+              <run fontalignment='1' fontsize='12'>), with WGU showing the greatest density in patients 80 or older.</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run bold='true' fontalignment='1' fontsize='12' underline='true'>Diabetes:</run>
+              <run bold='true' fontalignment='1' fontsize='12'>Æ </run>
+              <run fontalignment='1' fontsize='12'>More prevalent in the WGU data (</run>
+              <run bold='true' fontalignment='1' fontsize='12'>66.12%</run>
+              <run fontalignment='1' fontsize='12'>) vs the CDC (</run>
+              <run bold='true' fontalignment='1' fontsize='12'>33.88</run>
+              <run fontalignment='1' fontsize='12'>), with CDC data showing concentration in patients aged 65-74 and WGU showing the greatest density in patients 80 or older.</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run bold='true' fontalignment='1' fontsize='12' underline='true'>Overweight:</run>
+              <run fontalignment='1' fontsize='12'> Nearly even distribution between sources (CDC: </run>
+              <run bold='true' fontalignment='1' fontsize='12'>49.47%</run>
+              <run fontalignment='1' fontsize='12'>, WGU: </run>
+              <run bold='true' fontalignment='1' fontsize='12'>50.53%</run>
+              <run fontalignment='1' fontsize='12'>), with the CDC showing the most concentration in patients aged 50 to 74 and WGU showing the greatest density in patients 80 or older.</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run bold='true' fontalignment='1' fontsize='12' underline='true'>Stroke:</run>
+              <run fontalignment='1' fontsize='12'> Dramatically different (CDC: </run>
+              <run bold='true' fontalignment='1' fontsize='12'>16.65%</run>
+              <run fontalignment='1' fontsize='12'>, WGU: </run>
+              <run bold='true' fontalignment='1' fontsize='12'>83.35%</run>
+              <run fontalignment='1' fontsize='12'>), with WGU showing much higher prevalence across all age groups, but, as with the other three conditions, showing the greatest density in patients 80 or older.</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run bold='true' fontalignment='1' fontsize='18' underline='true'>Takeaways</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontsize='12'>The heat maps reveal that WGU data consistently shows higher prevalence of conditions in older populations, while CDC data tends to show more even age distribution across conditions. That said, WGU&apos;s elderly-heavy population naturally drives higher prevalence of age-related conditions like stroke </run>
+              <run fontalignment='1' fontsize='12'>and diabetes, since these conditions disproportionately affect older adults.</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontsize='12'>WGU appears to represent a geriatric or specialized elderly care population, while CDC likely represents a more general population sample. This may indicate that WGU should focus on incorporating appropriate treatment plans aligned with geriatric care and hiring geriatric specialists rather than expecting to apply the same level of preventative care across all age groups. </run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='52' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='51' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone forceUpdate='true' h='98616' id='3' type-v2='text' w='98928' x='536' y='692'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontsize='18' underline='true'>Demographics</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontsize='12'>Both datasets show similar gender distributions with slightly more females than males (CDC: </run>
+                    <run bold='true' fontalignment='1' fontsize='12'>52% </run>
+                    <run fontalignment='1' fontsize='12'>female, </run>
+                    <run bold='true' fontalignment='1' fontsize='12'>48%</run>
+                    <run fontalignment='1' fontsize='12'> male; WGU:</run>
+                    <run bold='true' fontalignment='1' fontsize='12'> 51%</run>
+                    <run fontalignment='1' fontsize='12'> female, </run>
+                    <run bold='true' fontalignment='1' fontsize='12'>48%</run>
+                    <run fontalignment='1' fontsize='12'> male, </run>
+                    <run bold='true' fontalignment='1' fontsize='12'>1%</run>
+                    <run fontalignment='1' fontsize='12'> nonbinary). Meanwhile, the age distributions are more contrasted, as the CDC data shows relatively even distribution across age groups while the WGU data has a significant spike in the &quot;80 or older&quot; category.</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run bold='true' fontalignment='1' fontsize='18' underline='true'>Condition KPIs</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run bold='true' fontalignment='1' fontsize='12' underline='true'>Asthma:</run>
+                    <run fontalignment='1' fontsize='12'> More prevalent in the WGU data (</run>
+                    <run bold='true' fontalignment='1' fontsize='12'>67.72%</run>
+                    <run fontalignment='1' fontsize='12'>) vs the CDC (</run>
+                    <run bold='true' fontalignment='1' fontsize='12'>32.38</run>
+                    <run fontalignment='1' fontsize='12'>), with WGU showing the greatest density in patients 80 or older.</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run bold='true' fontalignment='1' fontsize='12' underline='true'>Diabetes:</run>
+                    <run bold='true' fontalignment='1' fontsize='12'>Æ </run>
+                    <run fontalignment='1' fontsize='12'>More prevalent in the WGU data (</run>
+                    <run bold='true' fontalignment='1' fontsize='12'>66.12%</run>
+                    <run fontalignment='1' fontsize='12'>) vs the CDC (</run>
+                    <run bold='true' fontalignment='1' fontsize='12'>33.88</run>
+                    <run fontalignment='1' fontsize='12'>), with CDC data showing concentration in patients aged 65-74 and WGU showing the greatest density in patients 80 or older.</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run bold='true' fontalignment='1' fontsize='12' underline='true'>Overweight:</run>
+                    <run fontalignment='1' fontsize='12'> Nearly even distribution between sources (CDC: </run>
+                    <run bold='true' fontalignment='1' fontsize='12'>49.47%</run>
+                    <run fontalignment='1' fontsize='12'>, WGU: </run>
+                    <run bold='true' fontalignment='1' fontsize='12'>50.53%</run>
+                    <run fontalignment='1' fontsize='12'>), with the CDC showing the most concentration in patients aged 50 to 74 and WGU showing the greatest density in patients 80 or older.</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run bold='true' fontalignment='1' fontsize='12' underline='true'>Stroke:</run>
+                    <run fontalignment='1' fontsize='12'> Dramatically different (CDC: </run>
+                    <run bold='true' fontalignment='1' fontsize='12'>16.65%</run>
+                    <run fontalignment='1' fontsize='12'>, WGU: </run>
+                    <run bold='true' fontalignment='1' fontsize='12'>83.35%</run>
+                    <run fontalignment='1' fontsize='12'>), with WGU showing much higher prevalence across all age groups, but, as with the other three conditions, showing the greatest density in patients 80 or older.</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run bold='true' fontalignment='1' fontsize='18' underline='true'>Takeaways</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontsize='12'>The heat maps reveal that WGU data consistently shows higher prevalence of conditions in older populations, while CDC data tends to show more even age distribution across conditions. That said, WGU&apos;s elderly-heavy population naturally drives higher prevalence of age-related conditions like stroke </run>
+                    <run fontalignment='1' fontsize='12'>and diabetes, since these conditions disproportionately affect older adults.</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontsize='12'>WGU appears to represent a geriatric or specialized elderly care population, while CDC likely represents a more general population sample. This may indicate that WGU should focus on incorporating appropriate treatment plans aligned with geriatric care and hiring geriatric specialists rather than expecting to apply the same level of preventative care across all age groups. </run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{02C128E5-EBF7-4299-AF3A-94C44FB76CA4}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 4'>
+      <repository-location derived-from='http://localhost:9100/workbooks/D210DataDashboardandStorytelling_17538989573670/Dashboard4?rev=' id='120645430' path='/workbooks/D210DataDashboardandStorytelling_17538989573670' revision='' />
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone forceUpdate='true' h='98000' id='3' type-v2='text' w='98400' x='800' y='1000'>
+            <formatted-text>
+              <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='18' underline='true'>Introduction</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontcolor='#000000' fontsize='12'>Æ                                     </run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontcolor='#000000' fontname='Tableau Book' fontsize='12'>The following dashboards present medical data from two separate sources: Western Governors University (WGU) and the Center for Disease Control and Prevention (CDC). The CDC data was collected as part of the Behavioral Risk Factor Surveillance System (BRFSS) survey in 2020. The BRFSS survey is the largest continuously conducted health survey system in the world, completing more than 400,000 adult interviews every year to assess the health status of U.S. residents across all 50 states as well as the District of Columbia and three U.S. territories.</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontcolor='#000000' fontname='Tableau Book' fontsize='12'>Æ   </run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='18' underline='true'>Purpose</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontcolor='#000000' fontsize='12'>The purpose of this presentation is address the priorities of the Senior Vice President of Hospital Operations (SVP) by investigating patient outcome as a function of demographic factors. The CDC&apos;s BRFSS dataset enhances the insights that can be drawn from the WGU dataset by providing a benchmark against which to evaluate WGU&apos;s patient population. This comparison may highlight areas where WGU can implement targeted interventions to improve patient care.</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontcolor='#000000' fontsize='12'>Æ   </run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='18' underline='true'>Design</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontcolor='#000000' fontname='Tableau Book' fontsize='12'>The first tab displays the demographic distributions of my two cleaned datasets. Two bar charts demonstrate the age category distribution for both the CDC and WGU data, while two pie charts show the gender distribution for each.</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontcolor='#000000' fontname='Tableau Book' fontsize='12'>The following section features heat maps for each condition across age categories for both data sources. A percentage occurrence chart is included for each pair of heat maps, showing the upper and lower limits for each range.  These heat maps visually highlight age-related trends in condition prevalence and can immediately indicate similarities and differences between trends at WGU and trends seen at the CDC level.</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontcolor='#000000' fontname='Tableau Book' fontsize='12'>Three interactive filters (age category, gender, and data source) are embedded across all the data visualizations, empowering users to explore specific subgroups and compare them across datasets. </run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontcolor='#000000' fontname='Tableau Book' fontsize='12'>Finally, all the dashboards are designed with colorblind limitations in mind, favoring contrasting blue and orange shades across visualizations to ensure broad visibility. </run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1'>Æ&#10;</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='13' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone forceUpdate='true' h='98000' id='3' type-v2='text' w='98400' x='800' y='1000'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='18' underline='true'>Introduction</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='12'>Æ                                     </run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Tableau Book' fontsize='12'>The following dashboards present medical data from two separate sources: Western Governors University (WGU) and the Center for Disease Control and Prevention (CDC). The CDC data was collected as part of the Behavioral Risk Factor Surveillance System (BRFSS) survey in 2020. The BRFSS survey is the largest continuously conducted health survey system in the world, completing more than 400,000 adult interviews every year to assess the health status of U.S. residents across all 50 states as well as the District of Columbia and three U.S. territories.</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Tableau Book' fontsize='12'>Æ   </run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='18' underline='true'>Purpose</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='12'>The purpose of this presentation is address the priorities of the Senior Vice President of Hospital Operations (SVP) by investigating patient outcome as a function of demographic factors. The CDC&apos;s BRFSS dataset enhances the insights that can be drawn from the WGU dataset by providing a benchmark against which to evaluate WGU&apos;s patient population. This comparison may highlight areas where WGU can implement targeted interventions to improve patient care.</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#000000' fontsize='12'>Æ   </run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='18' underline='true'>Design</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Tableau Book' fontsize='12'>The first tab displays the demographic distributions of my two cleaned datasets. Two bar charts demonstrate the age category distribution for both the CDC and WGU data, while two pie charts show the gender distribution for each.</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Tableau Book' fontsize='12'>The following section features heat maps for each condition across age categories for both data sources. A percentage occurrence chart is included for each pair of heat maps, showing the upper and lower limits for each range.  These heat maps visually highlight age-related trends in condition prevalence and can immediately indicate similarities and differences between trends at WGU and trends seen at the CDC level.</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Tableau Book' fontsize='12'>Three interactive filters (age category, gender, and data source) are embedded across all the data visualizations, empowering users to explore specific subgroups and compare them across datasets. </run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Tableau Book' fontsize='12'>Finally, all the dashboards are designed with colorblind limitations in mind, favoring contrasting blue and orange shades across visualizations to ensure broad visibility. </run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{790B049A-C584-4B6F-8EF7-F6BA53CC6CD4}' />
+    </dashboard>
+    <dashboard name='Story 1' type='storyboard'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000dd' fontname='Arial'>D211</run>
+            <run bold='true' fontcolor='#000000dd' fontname='Arial'>Æ </run>
+            <run fontname='Arial'>Advanced Data Acquisition</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/workbooks/D210DataDashboardandStorytelling_17538989573670/Story1?rev=' id='119682311' path='/workbooks/D210DataDashboardandStorytelling_17538989573670' revision='' />
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='2801' id='3' type-v2='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='3631' />
+            <zone h='85062' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='14108'>
+              <flipboard active-id='3' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='Data Comparison' captured-sheet='Dashboard 1' id='1' />
+                  <story-point caption='Condition KPIs ' captured-sheet='Dashboard 2' id='3'>
+                    <capturedDeltas>
+                      <worksheet name='Sheet 4 (2)'>
+                        <selection-collection />
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
+                  <story-point caption='Summary and Key Takeaways' captured-sheet='Dashboard 3' id='4' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{2DAAB488-2F23-4D21-BFF4-E9836B93E869}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F50B8266-E163-4A25-9C32-E04B68A8E14A}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A52236AB-1F86-4AD9-BD70-DE1904B9D008}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:age_category:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0rd1wro1npnko413u0ku40r44ek0].[none:gender:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FED0CDA3-0000-4C24-A6AC-AD432E05DE90}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 3'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{A8BBF04F-BBE5-4EAF-A000-18305B73FE46}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card size='31' type='pages' />
+            <card size='92' type='filters' />
+            <card size='192' type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='96'>
+            <card type='caption' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:asthma:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CD709B82-12B2-4048-BA92-3008A5A52BEB}' />
+    </window>
+    <window class='worksheet' name='Sheet 4 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='96'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{589BF4C3-9E7D-42A6-B5C1-A797D7A1D727}' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:diabetes:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DB19A699-B7F3-4D5A-90B9-5D777B21CB45}' />
+    </window>
+    <window class='worksheet' name='Sheet 5 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{74482B75-AB7F-4453-B1EB-0B0E965D28CF}' />
+    </window>
+    <window class='worksheet' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:overweight:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9EBB8303-5FEE-482A-A7EE-475C20C17EB7}' />
+    </window>
+    <window class='worksheet' name='Sheet 6 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D07C7DB2-BD82-4544-8758-F43D38C0D597}' />
+    </window>
+    <window class='worksheet' name='Sheet 7'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0rd1wro1npnko413u0ku40r44ek0].[cnt:stroke:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A7329496-F5C2-4455-9B2D-EA0E086AFEFC}' />
+    </window>
+    <window class='worksheet' name='Sheet 7 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5F846ED0-5008-4B38-9FA5-F799A6022FFD}' />
+    </window>
+    <window class='worksheet' name='Sheet 12'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CD36D636-4392-4064-89A3-0EB816EFFA38}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Story 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{2A10AF51-4217-46BC-9F80-1317C442521F}' />
+    </window>
+    <window class='dashboard' name='Dashboard 2'>
+      <viewpoints>
+        <viewpoint name='Sheet 4'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 4 (2)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 5'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 5 (2)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 6'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 6 (2)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 7'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 7 (2)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{EFB79DE9-093A-480E-B1D5-0B51CFC88C1C}' />
+    </window>
+    <window class='dashboard' name='Dashboard 3'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{075FF05F-E397-41E7-8059-5DE651D63499}' />
+    </window>
+    <window class='dashboard' name='Dashboard 4'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{07490DFC-977E-4EED-920C-65186EF95A23}' />
+    </window>
+  </windows>
+</workbook>
